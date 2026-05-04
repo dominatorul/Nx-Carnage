@@ -1,38 +1,47 @@
 # NX-Carnage
-Lightweight custom firmware pack for overclocking enthusiasts.
+> Lightweight custom firmware pack for overclocking enthusiasts.
 
 > [!NOTE]
 > This project is developed for informational purposes, showcasing the capabilities of Switch hardware, and is not aimed at extracting commercial benefits.
 
 > [!WARNING]
-> Overclocking the console does not lead to irreversible hardware damage, however it poses a risk to data due to the nature of Horizon OS. It is strongly recommended to use overclocking exclusively in emuMMC and to make regular backups. **USE AT YOUR OWN RISK!**
+> Overclocking poses a risk to data due to the nature of Horizon OS. It is strongly recommended to use overclocking exclusively in **emuMMC** and to make regular backups. **USE AT YOUR OWN RISK!**
 
-## Community & Support
-- Discord: [Horizon OC](https://dsc.gg/horizonoc)
-- Discord: [NSwitch 60FPS Cheats & Mods](https://discord.com/invite/UqN6FcepTQ) — `#overclocking`
+---
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Hardware](#supported-hardware)
+- [Philosophy](#philosophy)
+- [Guides](#guides)
+- [FAQ](#faq)
+- [Included Components](#included-components)
+- [Community & Support](#community--support)
+- [Credits](#credits)
 
 ---
 
 ## Installation
 
 1. Make a backup and delete everything except the `Nintendo` and `emuMMC` folders from your SD card.
-2. Unpack [NX-Carnage](https://github.com/dominatorul/Nx-Carnage/releases/download/latest/NxCarnage.zip) to the root of the SD card via a card reader, or through `Hekate` → `Tools` → `USB Tools`.
-3. Use the `Easy Setup` package to continue installation.
+2. Unpack [NX-Carnage](https://github.com/dominatorul/Nx-Carnage/releases/download/latest/NxCarnage.zip) to the root of the SD card via a card reader, or through `Hekate → Tools → USB Tools`.
+3. Use the **Easy Setup** package to continue installation.
 
 ---
 
 ## Usage
 
-1. **Launch Ultrahand** by pressing `ZL + ZR + DPAD DOWN` simultaneously. Press `DPAD RIGHT`, open `Easy Setup Installer`, and select `Install Easy Setup`.
+1. **Launch Ultrahand** by pressing `ZL + ZR + DPAD DOWN` simultaneously. Press `DPAD RIGHT`, open **Easy Setup Installer**, and select **Install Easy Setup**.
 
    > [!NOTE]
    > Make sure you have a working internet connection and that your system time is set correctly, otherwise the process may fail.
 
 2. Once the download is complete, **restart Ultrahand** by pressing `B` twice to exit, then relaunch it. Press `DPAD RIGHT` — if successful, the package name will update and the version will be displayed.
 
-3. Select the `Easy Setup` package, press `Y`, and enable `Boot Commands` to allow automatic updates in the future.
+3. Select the **Easy Setup** package, press `Y`, and enable **Boot Commands** to allow automatic updates in the future.
 
-4. Open `Easy Setup`, choose your preferred installation method, and you're all set!
+4. Open **Easy Setup**, choose your preferred installation method, and you're all set!
 
 ---
 
@@ -57,27 +66,41 @@ The guiding principle of console overclocking is the absence of side effects. Th
 
 | Guide | Link |
 |---|---|
-| Overclocking Setup (60 FPS) | https://rentry.co/howtoget60fps |
-| Mariko Settings | https://rentry.co/mariko |
-| Erista Settings | https://rentry.co/erista |
-| Stability Testing | https://rentry.co/howtoteststability |
+| Overclocking Setup (60 FPS) | [rentry.co/howtoget60fps](https://rentry.co/howtoget60fps) |
+| Mariko Settings | [rentry.co/mariko](https://rentry.co/mariko) |
+| Erista Settings | [rentry.co/erista](https://rentry.co/erista) |
+| Stability Testing | [rentry.co/howtoteststability](https://rentry.co/howtoteststability) |
 
 ---
 
 ## FAQ
 
-- **Problems after installation?** Try fixing attributes: `Hekate` → `Tools` → `Arch Bit`.
-- **Need help?** Reach out on [Horizon OC](https://dsc.gg/horizonoc) or [NSwitch 60FPS Cheats & Mods](https://discord.com/invite/UqN6FcepTQ) (`#overclocking`).
+**Problems after installation?**
+Try fixing archive bit: `Hekate → Tools → Arch Bit`.
+
+**Need help?**
+Reach out on [Horizon OC](https://dsc.gg/horizonoc) or [NSwitch 60FPS Cheats & Mods](https://discord.com/invite/UqN6FcepTQ) (`#overclocking`).
 
 ---
 
 ## Included Components
 
-- [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
-- [Hekate](https://github.com/CTCaer/hekate)
-- [Sys-patch](https://github.com/borntohonk/sys-patch)
-- [Ultrahand Overlay](https://github.com/ppkantorski/Ultrahand-Overlay)
-- [Easy Setup](https://github.com/dominatorul/Easy-Setup)
+| Component | Repository |
+|---|---|
+| Atmosphere | [Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) |
+| Hekate | [CTCaer/hekate](https://github.com/CTCaer/hekate) |
+| Sys-patch | [borntohonk/sys-patch](https://github.com/borntohonk/sys-patch) |
+| Ultrahand Overlay | [ppkantorski/Ultrahand-Overlay](https://github.com/ppkantorski/Ultrahand-Overlay) |
+| Easy Setup | [dominatorul/Easy-Setup](https://github.com/dominatorul/Easy-Setup) |
+
+---
+
+## Community & Support
+
+| Server | Channel |
+|---|---|
+| [Horizon OC](https://dsc.gg/horizonoc) | General |
+| [NSwitch 60FPS Cheats & Mods](https://discord.com/invite/UqN6FcepTQ) | `#overclocking` |
 
 ---
 
@@ -101,7 +124,7 @@ The guiding principle of console overclocking is the absence of side effects. Th
 | **ppkantorski** | Ultrahand sys-clk & Status Monitor fork |
 | **MasaGratoR** | Status Monitor & Display Refresh Rate driver |
 | **MasaGratoR, ZachyCatGames** | General help |
-| **Dominatorul, Samybigio, Arcdelta, Miki, Happy, Winnerboi77, Blaise, Alvise, agjeococh, frost, letum00, Xenshen** | Testing |
+| **Dominatorul, Samybigio, Arcdelta, Miki, Happy, Winnerboi77, Blaise, Alvise, agjeocach, frost, letum00, Xenshen** | Testing |
 | **Samybigio2011, Miki** | Italian translations |
 | **angelblaster** | Korean translations |
 | **q1332348216-glitch** | Chinese translations |
