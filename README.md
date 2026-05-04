@@ -1,5 +1,6 @@
 # NX-Carnage
 > Lightweight custom firmware pack for overclocking enthusiasts.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/b26045e3-c26f-4288-a269-62098bd9ab41" />
 
 > [!NOTE]
 > This project is developed for informational purposes, showcasing the capabilities of Switch hardware, and is not aimed at extracting commercial benefits.
