@@ -26,7 +26,7 @@
 
 ## Installation
 
-1. Make a backup and delete everything except the `Nintendo` and `emuMMC` folders from your SD card.
+1. Make a backup and delete the the `atmosphere` and `bootloader` folders from your SD card.
 2. Unpack [NX-Carnage](https://github.com/dominatorul/Nx-Carnage/releases/download/latest/NxCarnage.zip) to the root of the SD card via a card reader, or through `Hekate → Tools → USB Tools`.
 3. Use the **Easy Setup** package to continue installation.
 
